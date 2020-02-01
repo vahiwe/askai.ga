@@ -10,7 +10,7 @@ from openvino_api.settings import BASE_DIR
 
 CAR_COLORS = ["white", "gray", "yellow", "red", "green", "blue", "black"]
 CAR_TYPES = ["car", "bus", "truck", "van"]
-
+MOOD_TYPE = ['neutral', 'happy', 'sad', 'surprise', 'anger']
 
 def get_mask(processed_output):
     """
